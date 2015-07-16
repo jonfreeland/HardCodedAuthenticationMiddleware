@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HardCodedAuthenticationMiddleware", "HardCodedAuthenticationMiddleware\HardCodedAuthenticationMiddleware.xproj", "{25424F5F-1B3C-445E-ACBA-C8622275EBF1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HardCodedAuthenticationTest", "HardCodedAuthenticationTest\HardCodedAuthenticationTest.xproj", "{E79DDE9E-3D3B-4EBC-AD56-803BECF2E791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0924844-3D1E-49EE-8647-7726F923B12C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25424F5F-1B3C-445E-ACBA-C8622275EBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25424F5F-1B3C-445E-ACBA-C8622275EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25424F5F-1B3C-445E-ACBA-C8622275EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25424F5F-1B3C-445E-ACBA-C8622275EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79DDE9E-3D3B-4EBC-AD56-803BECF2E791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79DDE9E-3D3B-4EBC-AD56-803BECF2E791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79DDE9E-3D3B-4EBC-AD56-803BECF2E791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79DDE9E-3D3B-4EBC-AD56-803BECF2E791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
