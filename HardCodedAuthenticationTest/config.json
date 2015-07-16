@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "HardCodedAuthenticationTest"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-HardCodedAuthenticationTest-ba92669c-3ef4-4b28-96ed-3f8a452cbdbd;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
