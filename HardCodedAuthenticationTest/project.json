@@ -2,13 +2,6 @@
   "webroot": "wwwroot",
   "userSecretsId": "aspnet5-HardCodedAuthenticationTest-ba92669c-3ef4-4b28-96ed-3f8a452cbdbd",
   "version": "1.0.0-*",
-  "description": "Simple ASP.NET 5 middleware that allows for hard-coding claims and automatically authenticates the user to simplify local development.",
-  "copyright": "Copyright © 2015 Jonathan Freeland",
-  "title": "HardCodedAuthenticationMiddleware",
-  "projectUrl": "https://github.com/jonfreeland/HardCodedAuthenticationMiddleware",
-  "authors": [ "Jonathan Freeland" ],
-  "owners": [ "Jonathan Freeland" ],
-
 
   "dependencies": {
     "EntityFramework.SqlServer": "7.0.0-beta5",
