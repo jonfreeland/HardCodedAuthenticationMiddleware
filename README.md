@@ -1,6 +1,6 @@
 # HardCodedAuthenticationMiddleware
 
-Simple ASP.NET 5 middleware that allows for hard-coding claims and automatically authenticates the user to simplify local development.
+Simple ASP.NET 5 middleware that allows for hard-coding claims and automatically authenticates the user to simplify local development. NuGet package available [here](https://www.nuget.org/packages/HardCodedAuthenticationMiddleware/).
 
 ```csharp
 public void ConfigureServices(IServiceCollection services) {
