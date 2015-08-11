@@ -52,10 +52,10 @@ namespace HardCodedAuthenticationTest {
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerfactory) {
             loggerfactory.AddConsole(minLevel: LogLevel.Warning);
-            
+
             if (env.IsEnvironment("Development")) {
                 ////app.UseBrowserLink();
-                app.UseErrorPage(ErrorPageOptions.ShowAll);
+                app.UseErrorPage(new ErrorPageOptions { SourceCodeLineCount = 10 });
                 app.UseDatabaseErrorPage(DatabaseErrorPageOptions.ShowAll);
             } else {
                 app.UseErrorHandler("/Home/Error");

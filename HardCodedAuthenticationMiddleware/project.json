@@ -9,24 +9,20 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Microsoft.AspNet.Http.Abstractions": "1.0.0-beta5",
-    "Microsoft.Framework.Configuration": "1.0.0-beta5",
-    "Microsoft.AspNet.Authentication": "1.0.0-beta5"
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-beta6",
+    "Microsoft.Framework.Configuration": "1.0.0-beta6",
+    "Microsoft.AspNet.Authentication": "1.0.0-beta6",
+    "System.Threading": "4.0.10",
+    "System.Linq": "4.0.0",
+    "Microsoft.CSharp": "4.0.0"
   },
 
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta5"
+        "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta6"
       }
     },
-    "dnxcore50": {
-      "dependencies": {
-        "System.Collections": "4.0.10-beta-22816",
-        "System.Linq": "4.0.0-beta-22816",
-        "System.Threading": "4.0.10-beta-22816",
-        "Microsoft.CSharp": "4.0.0-beta-22816"
-      }
-    }
+    "dnxcore50": { }
   }
 }
